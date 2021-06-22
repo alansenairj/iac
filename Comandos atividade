@@ -80,6 +80,23 @@ apt install ansible sshpass -y
 ansible 127.0.0.1 -m ping
 
 
+#Git atualizar
+
+git add .
+git commit -m "upoad aula 3"
+git reset HEAD -- .vagrant
+git pull origin main
+git add .
+git push --set-upstream origin main
+git pull origin main
+
+git rm -r --cached .vagrant
+git commit -m "removi pasta vagrant"
+git push origin main
+
+git rm -r --cached id_rsa.pub
+git commit -m "removi rsa"
+git push origin main
 
 
 
