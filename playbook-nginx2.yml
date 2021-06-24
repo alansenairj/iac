@@ -3,7 +3,7 @@
 - hosts: remoto
   gather_facts: True
 
-  tasks:
+- tasks:
 
   - name: Nginx content
     copy:

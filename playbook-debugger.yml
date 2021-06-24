@@ -1,7 +1,8 @@
-- hosts: all
+- hosts: remoto
   gather_facts: False
   debugger: on_skipped
 
+  tasks:
   - name: Instalando nginx
     apt:
       name: nginx
