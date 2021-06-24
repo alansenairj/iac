@@ -99,9 +99,12 @@ git commit -m "removi rsa"
 git push origin main
 
 
+# comandos Ansible Listas e variveis
+ansible-playbook playbook-lookup-1.yml
 
 
 
+systemctl status nginx
 
 
 
